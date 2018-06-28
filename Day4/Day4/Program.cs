@@ -11,14 +11,30 @@ namespace Day4
         static void Main(string[] args)
         {
 
-            Uzdevums uzdevums1 = new Uzdevums();
-            uzdevums1.Publiska(); // izsaucam no uzdevums klases public funkciju!
-            
+            //  Uzdevums uzdevums1 = new Uzdevums(); // konstruejam objektu!
+            //  uzdevums1.Publiska(); // izsaucam no uzdevums klases public funkciju!
 
-            // Stuff here
+            // 
+
+            Zarosanas zari = new Zarosanas();
+            zari.LielaksVaiMazaks();
+
+
             Console.ReadLine();
 
 
+            
         }
+
+        ///////
+
+
+
+
+
+
+
+
+
     }
 }
