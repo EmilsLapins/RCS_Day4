@@ -10,13 +10,22 @@ namespace Day4
     {
         static void Main(string[] args)
         {
-            //
-            //     if else statements !
-            //
+
+
+
+
+
+            //if else statements !
+
 
             Console.WriteLine("1, ja izvelies izsaukt Uzdevums klasi; 2, ja Zarosanas klasi!");
             string input = Console.ReadLine();
-           
+
+            Zarosanas zars1 = new Zarosanas();
+            zars1.ArIf(input);
+            zars1.ArCase(input);
+
+
 
             if (input == "1") // ja ievaditais ir lielaks par 5 vai 5, tad izsaucam uzdevums klasi
             {
@@ -26,7 +35,7 @@ namespace Day4
             }
             else
             {
-           
+
                 if (input == "2")
                 {
                     Console.WriteLine("Izvelejaties Zarosanas klasi!");
@@ -36,14 +45,14 @@ namespace Day4
                 else
                 {
                     Console.WriteLine("Nemakam lasit?");
-                   
+
                 }
-                
+
             }
             //
             // versija ar Switch statement!
             //
-            switch(input)
+            switch (input)
             {
                 case "1":
 
@@ -64,28 +73,22 @@ namespace Day4
                     break; // ar break mes izejam ara no switch statement!
 
 
-                   
+            }
 
 
-            }   
-            
+
+
 
 
             Console.ReadLine();
 
 
-            
+
         }
-
-        ///////
-
-
-
-
-
 
 
 
 
     }
 }
+
