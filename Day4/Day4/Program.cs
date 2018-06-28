@@ -10,20 +10,19 @@ namespace Day4
     {
         static void Main(string[] args)
         {
-
-
-
-
-
+            
             //if else statements !
-
-
-            Console.WriteLine("1, ja izvelies izsaukt Uzdevums klasi; 2, ja Zarosanas klasi!");
+            
+            Console.WriteLine("If un Switch... ");
+            Console.WriteLine("Ievadiet skaitli!");
             string input = Console.ReadLine();
 
             Zarosanas zars1 = new Zarosanas();
             zars1.ArIf(input);
             zars1.ArCase(input);
+
+            Console.WriteLine("1, ja izvelies izsaukt Uzdevums klasi; 2, ja Zarosanas klasi!");
+
 
 
 
@@ -69,26 +68,14 @@ namespace Day4
 
                     break;
                 default:
-                    Console.WriteLine("Nemakam lasit?");
+                    Console.WriteLine("Error");
                     break; // ar break mes izejam ara no switch statement!
 
 
             }
-
-
-
-
-
-
             Console.ReadLine();
-
-
-
         }
-
-
-
-
+        
     }
 }
 

@@ -43,12 +43,12 @@ namespace Day4
            
             int skaitlis = Convert.ToInt32(ievade);
 
-            if (skaitlis > 10 || skaitlis < 0)
+            if (skaitlis > 10 || skaitlis < 0) // visas kludainas vertibas seit
             {
                 Console.WriteLine("Ievade ir kludaina!");
 
             }
-            else
+            else // visas derigas vertibas seit
             {
                 if (skaitlis == 0)
                 {
@@ -94,6 +94,10 @@ namespace Day4
                 {
                     Console.WriteLine("Ievade ir 10!");
                 }
+                if (skaitlis == 11)
+                {
+                    Console.WriteLine("Ievade ir 11!");
+                }
             }
             
 
@@ -115,41 +119,41 @@ namespace Day4
             switch (skaitlis)
             {
                 case 1:
-                    Console.WriteLine(" Ievade ir 1 ");
+                    Console.WriteLine("Ievade ir 1 ");
                     break;
 
                 case 2:
-                    Console.WriteLine(" Ievade ir 2 ");
+                    Console.WriteLine("Ievade ir 2 ");
                     break;
                 case 3:
-                    Console.WriteLine(" Ievade ir 3 ");
+                    Console.WriteLine("Ievade ir 3 ");
                     break;
                 case 4:
-                    Console.WriteLine(" Ievade ir 4");
+                    Console.WriteLine("Ievade ir 4");
                     break;
                 case 5:
-                    Console.WriteLine(" Ievade ir 5 ");
+                    Console.WriteLine("Ievade ir 5 ");
                     break;
                 case 6:
-                    Console.WriteLine(" Ievade ir 6  ");
+                    Console.WriteLine("Ievade ir 6  ");
                     break;
                 case 7:
-                    Console.WriteLine(" Ievade ir starp 7 ");
+                    Console.WriteLine("Ievade ir starp 7 ");
                     break;
                 case 8:
-                    Console.WriteLine(" Ievade ir starp 8 ");
+                    Console.WriteLine("Ievade ir starp 8 ");
                     break;
                 case 9:
-                    Console.WriteLine(" Ievade ir starp 9 ");
+                    Console.WriteLine("Ievade ir starp 9 ");
                     break;
                 case 10:
-                    Console.WriteLine(" Ievade ir desmit! ");
+                    Console.WriteLine("Ievade ir desmit! ");
                     break;
                 case 11:
-                    Console.WriteLine(" Ievade ir kludaina! ");
+                    Console.WriteLine("Ievade ir kludaina! ");
                     break;
                 case 0:
-                    Console.WriteLine(" Kludaina ievade ");
+                    Console.WriteLine("Kludaina ievade ");
                     break;
 
                 default:
