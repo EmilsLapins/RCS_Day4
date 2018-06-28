@@ -15,11 +15,8 @@ namespace Day4
 
             Izvade();
             
-
             Console.WriteLine(Saskaitisana());
-
-
-
+            
         }
 
 

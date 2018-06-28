@@ -15,12 +15,6 @@ namespace Day4
             uzdevums1.Publiska();
             
 
-            
-
-
-
-
-
             // Stuff here
             Console.ReadLine();
 
