@@ -11,10 +11,10 @@ namespace Day4
         static void Main(string[] args)
         {
             Console.WriteLine("1, ja izvelies izsaukt Uzdevums klasi; 2, ja Zarosanas klasi!");
-            string abc = Console.ReadLine();
+            string input = Console.ReadLine();
            
 
-            if (abc == "1") // ja ievaditais ir lielaks par 5 vai 5, tad izsaucam uzdevums klasi
+            if (input == "1") // ja ievaditais ir lielaks par 5 vai 5, tad izsaucam uzdevums klasi
             {
                 Console.WriteLine("Izvelejaties Uzdevums klasi!");
                 Uzdevums uzdevums1 = new Uzdevums(); // konstruejam objektu!
@@ -23,7 +23,7 @@ namespace Day4
             else
             {
            
-                if (abc == "2")
+                if (input == "2")
                 {
                     Console.WriteLine("Izvelejaties Zarosanas klasi!");
                     Zarosanas zari = new Zarosanas(); // ja ievaditais ir mazaks par 5
