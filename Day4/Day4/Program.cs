@@ -14,7 +14,7 @@ namespace Day4
             string abc = Console.ReadLine();
             int abc1 = Convert.ToInt16(abc);
 
-            if (abc1 >= 5) // ja ievaditais ir lielaks par 5 vai 5, tad uzsaucam uzdevums klasi
+            if (abc1 >= 5) // ja ievaditais ir lielaks par 5 vai 5, tad izsaucam uzdevums klasi
             {
                 Console.WriteLine("Vienads ar 5 , vai lielaks par 5");
                 Uzdevums uzdevums1 = new Uzdevums(); // konstruejam objektu!
