@@ -21,12 +21,16 @@ namespace Day4
             if (skaitlis > 5)
             {
                 Console.WriteLine(skaitlis + " ir lielaks par 5! ");
-
             }
+
+            if (skaitlis == 5)
+            {
+                Console.WriteLine(skaitlis + " ir 5! ");
+            }
+
             else
             {
                 Console.WriteLine(skaitlis + " ir mazaks par 5!");
-
             }
 
         }
