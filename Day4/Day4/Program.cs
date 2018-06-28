@@ -12,7 +12,7 @@ namespace Day4
         {
 
             Uzdevums uzdevums1 = new Uzdevums();
-            uzdevums1.Publiska();
+            uzdevums1.Publiska(); // izsaucam no uzdevums klases public funkciju!
             
 
             // Stuff here

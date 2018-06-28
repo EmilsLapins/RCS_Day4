@@ -10,7 +10,7 @@ namespace Day4
     {
 
 
-        public void Publiska ()
+        public void Publiska ()  // izsaucam abas private funkcijas !!!
         {
 
             Izvade();
