@@ -10,6 +10,21 @@ namespace Day4
     {
         static void Main(string[] args)
         {
+
+            Uzdevums uzdevums1 = new Uzdevums();
+            uzdevums1.Publiska();
+            
+
+            
+
+
+
+
+
+            // Stuff here
+            Console.ReadLine();
+
+
         }
     }
 }
