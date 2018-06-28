@@ -43,7 +43,7 @@ namespace Day4
                 }
                 else
                 {
-                    Console.WriteLine("Nemakam lasit?");
+                    Console.WriteLine("Error?");
 
                 }
 
