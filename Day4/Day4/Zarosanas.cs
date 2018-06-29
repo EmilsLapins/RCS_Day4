@@ -96,7 +96,7 @@ namespace Day4
                 }
                 if (skaitlis == 11)
                 {
-                    Console.WriteLine("Ievade ir 11!");
+                    Console.WriteLine("Ievade ir kludaina!");
                 }
             }
             
@@ -138,16 +138,16 @@ namespace Day4
                     Console.WriteLine("Ievade ir 6  ");
                     break;
                 case 7:
-                    Console.WriteLine("Ievade ir starp 7 ");
+                    Console.WriteLine("Ievade ir  7 ");
                     break;
                 case 8:
-                    Console.WriteLine("Ievade ir starp 8 ");
+                    Console.WriteLine("Ievade ir  8 ");
                     break;
                 case 9:
-                    Console.WriteLine("Ievade ir starp 9 ");
+                    Console.WriteLine("Ievade ir  9 ");
                     break;
                 case 10:
-                    Console.WriteLine("Ievade ir desmit! ");
+                    Console.WriteLine("Ievade ir 10! ");
                     break;
                 case 11:
                     Console.WriteLine("Ievade ir kludaina! ");
